@@ -7,5 +7,6 @@
   - 環境のコンタミネーションを回避するために、`pip install` は極力使わないようにしてください。どうしても使わなければならない場合は問い合わせてください。
 - conda環境は activate せずに直接呼び出してください。
   - TSUBAME4 (hostname `r*n*` )：`~/.local/anaconda3/envs/[ENVNAME]/bin/python` 
+  - hostname 16進数文字列（`dfeb4299279e` など）：Docker内部である可能性が高いです。 その場合はcondaが存在しない場合もあります。`which conda` でパスを確認してください。
   - 研究室サーバ (hostname `harp01` )： パスを問い合わせてください。
   - その他のサーバについてはパスを問い合わせてください。
